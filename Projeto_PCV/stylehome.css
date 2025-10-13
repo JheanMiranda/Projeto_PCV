@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(140, 207, 224);
+}
+
+.top-bar {
+    background-color: rgb(35, 47, 82);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.underline {
+    height: 8px;
+    background-color: rgb(235, 235, 235);
+}
+
+.menu {
+    padding: 50px;
+    background-color: rgb(35, 47, 82);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 80px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    position: relative;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+main{
+    margin-top: 150px;
+}
+
+.background-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/681/681494.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    min-height: 400px;
+    position: relative;
+}
+
+.background-icon h1 {
+    font-size: 45px;
+    color: #000;
+    margin-left: 400px;
+}
+
+.background-icon img {
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-left: 100px
+}
+

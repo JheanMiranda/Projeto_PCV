@@ -50,15 +50,15 @@ body {
 }
 
 main {
-    margin-top: 50px; /* reduzido para subir a seção */
+    margin-top: 50px; 
 }
 
 .background-icon {
     display: flex;
     flex-direction: column;
-    align-items: center;       /* centraliza horizontalmente */
-    justify-content: flex-start; /* alinha no topo verticalmente */
-    padding: 20px 50px 30px 50px; /* menos padding topo para subir */
+    align-items: center;       
+    justify-content: flex-start; 
+    padding: 20px 50px 30px 50px; 
     min-height: 600px;
     position: relative;
     background: none;
@@ -67,7 +67,7 @@ main {
 
 .background-icon img {
     height: 400px;
-    margin-bottom: 100px; /* espaço entre imagem e frase */
+    margin-bottom: 100px; 
     flex-shrink: 0;
     
     transform-style: preserve-3d;
